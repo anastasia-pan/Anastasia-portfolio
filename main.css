@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Spectral:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Slab:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jura:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&family=Jura:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:wght@600&display=swap');
+
+* {
+    /* font-family: 'Roboto', sans-serif; */
+    /* font-family: 'Jura', sans-serif; */
+    font-family: 'EB Garamond', serif;
+    /* background-color: #CFD8DE; */
+    /* background-color: #E7EBEE; */
+}
+
+h1{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    /* font-family: 'PT Mono', monospace; */
+    font-family: 'Spectral', serif;
+    /* font-family: 'Josefin Slab', serif;
+    /* font-size: 70px; */
+    font-size: 55px;
+    padding-left: 60px;
+    padding-bottom: 0px;
+    letter-spacing: 2pt;
+}
+.banner{
+    display:flex;
+    justify-content: space-between;
+}
+
+.introcontainer, .contactcontainer{
+display:flex;
+justify-content: flex-start ;
+padding: 60px;
+padding-bottom:0;
+}
+
+.introtext{
+    font-family: 'EB Garamond', serif;
+    width: 50%;
+    font-size: 25px;
+    padding: 20px;
+    padding-left: 80px;
+
+}
+
+ .contacttext{
+    font-family: 'EB Garamond', serif;
+    font-size: 25px;
+    padding: 20px;
+    padding-left: 120px;
+
+}
+
+
+.imagebox{
+
+    padding-bottom: 0px;
+}
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    font-size: 30px;
+    line-height: 40px;
+    padding-top: 0px;
+    padding: 60px;
+    padding-bottom: 20px;
+}
+
+.item{
+    padding-right:140px;
+}
+
+.workexample1, .workexample2, .workexample3 {
+display:flex;
+justify-content: space-around;
+padding: 60px;
+padding-bottom: 20px;
+
+}
+
+.workexampletext1, .workexampletext2, .workexampletext3{
+    width: 500px;
+    padding-top: 20px;
+    padding-right: 40px;
+    text-align: justify;
+    font-size: 20px;
+}
+.workexample4 {
+    display: flex;
+    justify-content: row;
+    font-size: 20px;
+    padding: 60px;
+    padding-bottom: 20px;
+    font-weight: 900;
+
+}
+a:link{
+    color:black;
+    text-decoration: none;
+
+}
+
+a:hover {
+    color: black;
+    opacity: 0.5;
+
+  }
+
+ a:visited{
+    color: black;
+ } 
+ #imagecredit, #credit{
+    color: grey;
+    padding: 60px;
+    font-size: smaller;
+    padding-top: 0px;
+    margin-top: 0px;
+    font-style: italic;
+ }
+ #Linkedin, #worklink{
+    font-weight: 900;
+    /* text-decoration: underline; */
+    font-family: 'EB Garamond', serif;
+}
+ 
+#credit {
+    display: flex;
+    justify-content:flex-end;
+    padding-right: 60px;
+    padding-top: 0px;
+    padding-bottom: 20px;
+    margin-top: 0px;
+}
+
+#logo{
+    padding-top: 20px;
+}
